@@ -1,0 +1,52 @@
+#Container {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+#first {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+#first:hover {
+  color: crimson;
+}
+#second {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+#second:hover {
+  color: crimson;
+}
+#third {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+#third:hover {
+  color: crimson;
+}
+@media screen and (max-width: 433px) {
+  #first {
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  #first:hover {
+    color: crimson;
+  }
+  #second {
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  #second:hover {
+    color: crimson;
+  }
+  #third {
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  #third:hover {
+    color: crimson;
+  }
+}

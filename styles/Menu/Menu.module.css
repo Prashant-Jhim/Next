@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+#Container {
+  background-color: white;
+  top: 0%;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  border-top: 0px;
+  border-bottom: 1px solid black;
+  border-left: 0px;
+  border-right: 0px;
+}
+#button {
+  display: none;
+}
+#Title {
+  font-family: "Yellowtail", cursive;
+  font-size: xx-large;
+  width: 20%;
+  height: 10vh;
+  margin-right: 35%;
+}
+#Title:hover {
+  color: crimson;
+}
+.Submenu2 {
+  display: none;
+}
+@media screen and (max-width: 930px) {
+  #button {
+    margin-left: 10%;
+    border: 0px;
+    background-color: transparent;
+    font-size: large;
+    display: none;
+  }
+  #button:hover {
+    color: crimson;
+    border-bottom: 2px solid crimson;
+  }
+  #Title {
+    width: 40%;
+    margin-right: 10%;
+  }
+}
+@media screen and (max-width: 748px) {
+  #button {
+    display: block;
+  }
+  .Submenu2 {
+    padding-top: 20%;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+  }
+  #Link2 {
+    margin-top: 0.5%;
+    border: 1px solid black;
+    background-color: aqua;
+    height: 8vh;
+  }
+  #close {
+    margin-top: -20%;
+    margin-left: 95%;
+    margin-bottom: 15%;
+    background-color: transparent;
+    font-size: large;
+    border: 0px;
+    width: 5%;
+    height: 10vh;
+  }
+  #Link2:active {
+    border-left: 5px solid crimson;
+  }
+  #Link2:hover {
+    border-left: 5px solid crimson;
+  }
+}
+@media screen and (max-width: 433px) {
+  #Title {
+    font-size: xx-large;
+    width: 50%;
+    margin-right: 5%;
+    margin-top: 1%;
+  }
+}
+@media screen and (max-width: 411px) {
+  #Title {
+    font-size: xx-large;
+    width: 50%;
+    margin-right: 5%;
+    margin-top: 3%;
+  }
+}
+@media screen and (max-width: 321px) {
+  #Title {
+    width: 70%;
+    margin-right: 0%;
+    margin-top: 0%;
+  }
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
+#Main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+#Main p {
+  font-size: large;
+  font-family: yellowtail;
+}
+#Main h1 {
+  font-family: "Bebas Neue", cursive;
+}
+#img {
+  width: 50%;
+}
+@media screen and (max-width: 748px) {
+  #Main {
+    margin-top: 12%;
+    display: flex;
+    flex-direction: row;
+  }
+  #img {
+    margin-top: 7%;
+    width: 40%;
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 433px) {
+  #Main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #img {
+    margin-left: 10%;
+    width: 80%;
+  }
+}
